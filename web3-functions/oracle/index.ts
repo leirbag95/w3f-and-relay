@@ -22,7 +22,7 @@ Web3Function.onRun(async (context: Web3FunctionContext) => {
     (userArgs.oracle as string) ?? "0x59FA68250a6EBD6b89c7828AEec472DB3BaC0279";
   const userAddress =
     (userArgs.userAddress as string) ??
-    "0xCf9cCB6d40d1293a764eF3A4A76ED68542339e4f"; // contract address on Arb. Sepolia
+    "0xCf9cCB6d40d1293a764eF3A4A76ED68542339e4f";
   let lastUpdated;
   let oracle;
   try {
