@@ -1,0 +1,138 @@
+{
+  "address": "0x71B9B0F6C999CBbB0FeF9c92B80D54e4973214da",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "timeStamp",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "price",
+          "type": "uint256"
+        }
+      ],
+      "name": "PriceUpdated",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "lastUpdated",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "price",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_price",
+          "type": "uint256"
+        }
+      ],
+      "name": "updatePrice",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x3afe70b561d19dbe04fb6b3f1bcebb8d8d0b27032b5412a8719933487a34df91",
+  "receipt": {
+    "to": null,
+    "from": "0x4C0A3A5A04332c3a03a8fCa3D1f0AE34474b51B4",
+    "contractAddress": "0x71B9B0F6C999CBbB0FeF9c92B80D54e4973214da",
+    "transactionIndex": 0,
+    "gasUsed": "109401",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000800000000000000000000100000000000000000000000000000000000000000020000000000000000080000000000000000000000040004000000000000000000000000000000000000000000000010000200000000000000000000000000000000000000000000000000000000000004000000000000000000001000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000",
+    "blockHash": "0x460c59225a9f7e2e96b36714201465876aba01c628d4bdd8af667052648b8684",
+    "transactionHash": "0x3afe70b561d19dbe04fb6b3f1bcebb8d8d0b27032b5412a8719933487a34df91",
+    "logs": [
+      {
+        "transactionIndex": 0,
+        "blockNumber": 4628214,
+        "transactionHash": "0x3afe70b561d19dbe04fb6b3f1bcebb8d8d0b27032b5412a8719933487a34df91",
+        "address": "0x0000000000000000000000000000000000001010",
+        "topics": [
+          "0x4dfe1bbbcf077ddc3e01291eea2d5c70c2b422b415d95645b9adcfd678cb1d63",
+          "0x0000000000000000000000000000000000000000000000000000000000001010",
+          "0x0000000000000000000000004c0a3a5a04332c3a03a8fca3d1f0ae34474b51b4",
+          "0x00000000000000000000000004ba3ef4c023c1006019a0f9baf6e70455e41fcf"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000000000c6ffcf6369c900000000000000000000000000000000000000000000000000aeba4e702f080000000000000000000000000000000000000000000000000160cc6fd2f926e6e500000000000000000000000000000000000000000000000000adf34ea0cb9e3700000000000000000000000000000000000000000000000160cd36d2c88a50ae",
+        "logIndex": 0,
+        "blockHash": "0x460c59225a9f7e2e96b36714201465876aba01c628d4bdd8af667052648b8684"
+      }
+    ],
+    "blockNumber": 4628214,
+    "cumulativeGasUsed": "109401",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "c6b93f911b46d6eb9f2a199b1c33ee7c",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"timeStamp\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"price\",\"type\":\"uint256\"}],\"name\":\"PriceUpdated\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"lastUpdated\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"price\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_price\",\"type\":\"uint256\"}],\"name\":\"updatePrice\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/examples/CoingeckoOracle.sol\":\"CoingeckoOracle\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/examples/CoingeckoOracle.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity ^0.8.0;\\n\\ncontract CoingeckoOracle {\\n    uint256 public price;\\n    uint256 public lastUpdated;\\n\\n    event PriceUpdated(uint256 indexed timeStamp, uint256 price);\\n\\n    function updatePrice(uint256 _price) external {\\n        price = _price;\\n        lastUpdated = block.timestamp;\\n\\n        emit PriceUpdated(block.timestamp, _price);\\n    }\\n}\\n\",\"keccak256\":\"0xc36530f2315497890bcd52cf9a228da87bf59ec33bcae15d4105bd9925ff8ba5\",\"license\":\"UNLICENSED\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50610103806100206000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80638d6cc56d146041578063a035b1fe146052578063d0b06f5d14606c575b600080fd5b6050604c36600460b5565b6074565b005b605a60005481565b60405190815260200160405180910390f35b605a60015481565b60008190554260018190556040518281527f945c1c4e99aa89f648fbfe3df471b916f719e16d960fcec0737d4d56bd6968389060200160405180910390a250565b60006020828403121560c657600080fd5b503591905056fea2646970667358221220f686d3f563148b17c55f0a0cfc769bada2765f9b792fc396697568568c7a1d5c64736f6c63430008110033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b5060043610603c5760003560e01c80638d6cc56d146041578063a035b1fe146052578063d0b06f5d14606c575b600080fd5b6050604c36600460b5565b6074565b005b605a60005481565b60405190815260200160405180910390f35b605a60015481565b60008190554260018190556040518281527f945c1c4e99aa89f648fbfe3df471b916f719e16d960fcec0737d4d56bd6968389060200160405180910390a250565b60006020828403121560c657600080fd5b503591905056fea2646970667358221220f686d3f563148b17c55f0a0cfc769bada2765f9b792fc396697568568c7a1d5c64736f6c63430008110033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 67,
+        "contract": "contracts/examples/CoingeckoOracle.sol:CoingeckoOracle",
+        "label": "price",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 69,
+        "contract": "contracts/examples/CoingeckoOracle.sol:CoingeckoOracle",
+        "label": "lastUpdated",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_uint256"
+      }
+    ],
+    "types": {
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}
